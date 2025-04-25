@@ -1,23 +1,16 @@
-.title {
-    color: white;
-    background-color: navy;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 500px;
-    padding: 10px;
-    margin: 10px auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
 }
 
-.list {
-    background-color: greenyellow;
-    color: white;
-}
-
-.topic {
-    color: white;
-    background-color: white;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px 10px;
-    text-align: center;
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
 }
